@@ -1,7 +1,7 @@
 require 'discordrb'
 require "csv"
 
-bot = Discordrb::Bot.new token: 'ODEzNjQ3MjkyOTQxNzI5ODEz.YDSWFw.lHsvQr9KUvyrLbJg--wkxj3RQyY'
+bot = Discordrb::Bot.new token: 'TOKEN_BOT'
 data = CSV.read('buki.csv')
 bukishu = CSV.read('bukishu.csv')
 
